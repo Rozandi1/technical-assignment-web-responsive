@@ -1,0 +1,35 @@
+1. Apa itu responsive web design?
+    Teknologi ini digunakan untuk membuat desain dan tata letak yang fleksibel yang dapat diperluas 
+    tanpa mempengaruhi fungsi awalnya. Seperti contoh, jika pengguna beralih menggunakan ponsel Android 
+    ke laptop Windows, situs akan menyesuaikan resolusinya. 
+
+2. Sebutkan apa saja relative units yang dimiliki oleh CSS?
+    %	Untuk menentukan ukuran yang sifatnya relatif terhadap nilai lain.	p {line-height: 125%;}
+    cm	Menentukan ukuran dalam centimeter.	div {margin-bottom: 2cm;}
+    em	Satuan ukuran yang relatif terhadap ketinggian font dalam spasi em. 
+        Karena unit em setara dengan ukuran font yang diberikan, jika Anda menetapkan font ke 12pt, 
+        setiap unit “em” akan menjadi 12pt; dengan demikian, 2em akan menjadi 24pt.	
+        p {letter-spacing: 7em;}
+    ex	Nilai ini mendefinisikan pengukuran relatif terhadap tinggi x font. 
+        Ketinggian x ditentukan oleh tinggi huruf kecil font x.	
+        p {font-size: 24pt; line-height: 3ex;}
+    in	Menentukan ukuran dalam inchi.	p {word-spacing: .15in;}
+    mm	Menentukan ukuran dalam milimeter.	p {word-spacing: 15mm;}
+    pc	Menentukan pengukuran dalam picas. 1 pica setara dengan 12 point; 
+        dengan demikian, ada 6 pica per inci.	p {font-size: 20pc;}
+    pt	Menentukan pengukuran dalam point. Suatu titik didefinisikan sebagai 1/72 inci.	
+        body {font-size: 18pt;}
+    px	Menentukan pengukuran dalam piksel layar. p {padding: 25px;}
+
+3. Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+    perubahan yang terjadi pada tampilan saat berganti device atau ukuran width.
+
+    how to use it:
+    1. Use media queries to architect your CSS by breakpoint. Media queries are a feature of CSS 
+        that allow you to conditionally apply styles based on a set of browser and operating system parameters. 
+        We most commonly use min-width in our media queries.
+
+4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+    
+
+5. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
